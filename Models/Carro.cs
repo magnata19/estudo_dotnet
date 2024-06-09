@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace dotnet.Models
 {
-    public class Carro(string Marca, string Nome, int Ano)
+    public class Carro
     {
-        public string Marca { get; set; } = Marca;
-        public string Nome { get; set; } = Nome;
-        public int Ano { get; set; } = Ano;
+        public string Marca { get; set; }
+        public string Nome { get; set; }
+        public int Ano { get; set; }
 
         public void AdicionarCarro()
         {
